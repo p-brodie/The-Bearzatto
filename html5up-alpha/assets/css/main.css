@@ -109,8 +109,8 @@
 	}
 
 	body, input, select, textarea {
-		color: #777;
-		font-family: "Source Sans Pro", sans-serif;
+		color: #0c0a0a;
+		font-family: Lora
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.65em;
@@ -132,7 +132,7 @@
 		}
 
 	strong, b {
-		color: #646464;
+		color: #0a0909;
 		font-weight: 400;
 	}
 
@@ -145,7 +145,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #646464;
+		color: #080707;
 		font-weight: 300;
 		line-height: 1em;
 		margin: 0 0 0.5em 0;
@@ -220,7 +220,7 @@
 		background: #f8f8f8;
 		border-radius: 6px;
 		border: solid 1px #e5e5e5;
-		font-family: monospace;
+		font-family: Lora;
 		font-size: 0.9em;
 		line-height: 1.75em;
 		margin: 0 0 2em 0;
@@ -232,7 +232,7 @@
 		background: #f8f8f8;
 		border-radius: 6px;
 		border: solid 1px #e5e5e5;
-		font-family: monospace;
+		font-family: Lora;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -2018,7 +2018,7 @@
 	}
 
 	header p {
-		color: #999;
+		color: #070606;
 		position: relative;
 		margin: 0 0 1.5em 0;
 		font-style: italic;
@@ -2056,7 +2056,7 @@
 		header.major p {
 			display: inline-block;
 			border-top: solid 2px #e5e5e5;
-			color: #777;
+			color: #0b0909;
 			margin: 1.5em 0 0 0;
 			padding: 1.5em 0 0 0;
 			font-style: normal;
@@ -2069,7 +2069,7 @@
 	}
 
 	label {
-		color: #646464;
+		color: #070606;
 		display: block;
 		font-size: 0.9em;
 		font-weight: 300;
@@ -2184,7 +2184,7 @@
 				text-rendering: auto;
 				line-height: 1;
 				text-transform: none !important;
-				font-family: 'Font Awesome 5 Free';
+				font-family: Lora;
 				font-weight: 900;
 			}
 
@@ -2380,7 +2380,7 @@
 			text-rendering: auto;
 			line-height: 1;
 			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
+			font-family: Lora
 			font-weight: 400;
 		}
 
@@ -2397,11 +2397,11 @@
 		}
 
 		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
+			font-family: Lora
 		}
 
 		.icon.major {
-			background: #666;
+			background: #0b0909;
 			border-radius: 100%;
 			color: #ffffff;
 			cursor: default;
@@ -2417,7 +2417,7 @@
 			}
 
 			.icon.major.accent1 {
-				background: #666;
+				background: #080707;
 				color: #ffffff;
 			}
 
@@ -2691,7 +2691,7 @@
 		}
 
 		table th {
-			color: #646464;
+			color: #070606;
 			font-size: 0.9em;
 			font-weight: 300;
 			padding: 0 0.75em 0.75em 0.75em;
@@ -2746,7 +2746,7 @@
 		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
 		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #666;
+		background-color: #090707;
 		border-radius: 6px;
 		border: 0;
 		color: #ffffff;
@@ -2765,14 +2765,14 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			background-color: #737373;
+			background-color: #080707;
 		}
 
 		input[type="submit"]:active,
 		input[type="reset"]:active,
 		input[type="button"]:active,
 		.button:active {
-			background-color: #595959;
+			background-color: #0c0a0a;
 		}
 
 		input[type="submit"].icon,
@@ -2820,7 +2820,7 @@
 		.button.alt {
 			background-color: transparent;
 			box-shadow: inset 0 0 0 2px #e5e5e5;
-			color: #777;
+			color: #0c0a0a;
 		}
 
 			input[type="submit"].alt:hover,
@@ -2873,7 +2873,7 @@
 		input[type="button"]:disabled,
 		.button.disabled,
 		.button:disabled {
-			background-color: #777 !important;
+			background-color: #060505 !important;
 			box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
 			color: #f5f5f5 !important;
 			cursor: default;
@@ -2932,7 +2932,7 @@
 
 	#header {
 		background: #444;
-		color: #bbb;
+		color: #070505;
 		cursor: default;
 		height: 3.25em;
 		left: 0;
@@ -3000,7 +3000,7 @@
 					}
 
 						#header nav > ul > li a:not(.button).icon:before {
-							color: #999;
+							color: #060404;
 							margin-right: 0.5em;
 						}
 
@@ -3162,7 +3162,7 @@
 
 	#banner {
 		background-attachment: scroll,							fixed;
-		background-color: #666;
+		background-color: #060505;
 		background-image: url("images/overlay.png"), url("../../images/banner.jpg");
 		background-position: top left,						center center;
 		background-repeat: repeat,							no-repeat;
@@ -3181,11 +3181,12 @@
 		}
 
 		#banner h2 {
-			font-size: 3.5em;
+			font-size: 4.2em;
 			line-height: 1em;
 			margin: 0 0 0.5em 0;
 			padding: 0;
 			font-family: Open Sans;
+			font-weight: bold;
 		}
 
 		#banner p {
@@ -3222,13 +3223,14 @@
 			#banner input[type="button"].primary,
 			#banner .button.primary {
 				background: #fff;
-				color: #666 !important;
+				color: #0a0808 !important;
 			}
 
 /* Main */
 
 	#main {
 		padding: 4em 0;
+		font-family: Open Sans;
 	}
 
 		#main > header {
@@ -3243,7 +3245,7 @@
 
 			#main > header p {
 				border-top: solid 2px #e5e5e5;
-				color: #777;
+				color: #0e0b0b;
 				display: inline-block;
 				font-style: normal;
 				margin: 1em 0 0 0;
@@ -3275,7 +3277,7 @@
 			}
 
 		#footer .copyright {
-			color: #999;
+			color: #060505;
 			font-size: 0.9em;
 			line-height: 1em;
 			margin: 2em 0 0 0;
@@ -3546,7 +3548,7 @@
 						text-rendering: auto;
 						line-height: 1;
 						text-transform: none !important;
-						font-family: 'Font Awesome 5 Free';
+						font-family: Lora;
 						font-weight: 900;
 					}
 
